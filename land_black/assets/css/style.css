@@ -1,0 +1,2303 @@
+.ops {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ari {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* CSS begin */
+
+
+/*====================================================*/
+
+
+/* Geniral style */
+
+* {
+    max-height: 9001em;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    background-color: #ffffff;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/* Text & font style */
+
+.px10 {
+    font-size: 10px;
+}
+
+.px11 {
+    font-size: 11px;
+}
+
+.px12 {
+    font-size: 12px;
+}
+
+.px14 {
+    font-size: 14px;
+}
+
+.px15 {
+    font-size: 15px;
+}
+
+.px16 {
+    font-size: 16px;
+}
+
+.px17 {
+    font-size: 17px;
+}
+
+.px18 {
+    font-size: 18px;
+}
+
+.px19 {
+    font-size: 19px;
+}
+
+.px20 {
+    font-size: 20px;
+}
+
+.px21 {
+    font-size: 21px;
+}
+
+.px22 {
+    font-size: 22px;
+}
+
+.px23 {
+    font-size: 23px;
+}
+
+.px24 {
+    font-size: 24px;
+}
+
+.px25 {
+    font-size: 25px;
+}
+
+.px26 {
+    font-size: 26px;
+}
+
+.px28 {
+    font-size: 25px;
+}
+
+.px29 {
+    font-size: 29px;
+}
+
+.px30 {
+    font-size: 30px;
+}
+
+.px32 {
+    font-size: 32px;
+}
+
+.px35 {
+    font-size: 35px;
+}
+
+.px37 {
+    font-size: 37px;
+}
+
+.px40 {
+    font-size: 40px;
+}
+
+.px42 {
+    font-size: 42px;
+}
+
+.px45 {
+    font-size: 45px;
+}
+
+.px47 {
+    font-size: 47px;
+}
+
+.px50 {
+    font-size: 50px;
+}
+
+.px54 {
+    font-size: 54px;
+}
+
+.px58 {
+    font-size: 58px;
+}
+
+.px60 {
+    font-size: 60px;
+}
+
+.px62 {
+    font-size: 62px;
+}
+
+.px65 {
+    font-size: 65px;
+}
+
+.px80 {
+    font-size: 80px;
+}
+
+.red {
+    color: #ff2200;
+}
+
+.black {
+    color: #161616;
+}
+
+.blue {
+    color: #009fd2;
+}
+
+.white {
+    color: #fff;
+}
+
+.grey {
+    color: #646464;
+}
+
+.tahoma {
+    font-family: Tahoma, Geneva, sans-serif
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.center {
+    text-align: center;
+}
+
+.aleft {
+    text-align: left;
+}
+
+.aright {
+    text-align: right;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.upp {
+    text-transform: uppercase;
+}
+
+.lh120 {
+    line-height: 120%;
+}
+
+.lh140 {
+    line-height: 140%;
+}
+
+.lt {
+    text-decoration: line-through;
+}
+
+.mob,
+.mob2 {
+    display: none;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1154px;
+    padding: 0;
+    overflow: hidden
+}
+
+.inline-b {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+.table-cell {
+    display: table-cell;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+
+/* Sections */
+
+
+/*====================================================*/
+
+.number {
+    position: absolute;
+    width: 14%;
+    min-width: 50px;
+    max-width: 400px;
+    padding-bottom: 10px;
+}
+
+.callback {
+    position: fixed;
+    right: 20px;
+    z-index: 1000;
+    bottom: 20px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url()/*tpa=http://online24shops.com/free_propatent_1/css/*/
+    no-repeat 50% 50%;
+    background-size: 95px;
+    transition: background 0.3s;
+}
+
+.callback:hover {
+    background: url()/*tpa=http://online24shops.com/free_propatent_1/css/*/
+    no-repeat 50% 50%;
+    background-size: 100px;
+}
+
+#header {
+    background: #009fd2;
+    height: 80px;
+    padding-top: 13px;
+}
+
+#header .header li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+#header .logo {
+    width: 227px;
+    font-size: 30px;
+    /*text-transform: uppercase;*/
+    font-weight: bold;
+    color: #1f2149
+}
+
+#header .line {
+    width: calc(100% - 490px);
+    text-align: center;
+}
+
+#header a {
+    display: block;
+    width: 245px;
+    height: 54px;
+    line-height: 54px;
+    background: #1f2149;
+    border-radius: 8px;
+    color: #fff;
+}
+
+#header a:hover {
+    background: #363975;
+}
+
+#slide1 {
+    position: relative;
+    background: url('../img/bg1_new.jpg')/*tpa=http://online24shops.com/free_propatent_1/img/bg1_new.jpg*/
+    50% 0 no-repeat, url('../img/bg1-1.png')/*tpa=http://online24shops.com/free_propatent_1/img/bg1-1.png*/
+    50% 0 repeat-x;
+    height: 669px;
+    padding-top: 20px;
+}
+
+#slide1 .container {
+    height: 100%;
+}
+
+#slide1 .inn {
+    padding: 20px 0 80px;
+}
+
+#slide1 .list {
+    margin-left: 78px;
+}
+
+#slide1 .list li {
+    font-size: 19px;
+    background: url(../img/check.png)/*tpa=http://online24shops.com/free_propatent_1/img/check.png*/ no-repeat 0 50%;
+    padding: 7px 0 7px 40px;
+}
+
+#slide1 .vibor {
+    padding: 138px 0 0 120px;
+}
+
+#slide1 .choose {
+    padding: 25px 0 0 26px;
+}
+
+#slide1 .zakaz {
+    position: absolute;
+    margin: 180px 0 0 820px;
+    width: 316px;
+}
+
+.zakaz .remain {
+    position: absolute;
+    background: url()/*tpa=http://online24shops.com/free_propatent_1/css/*/
+    no-repeat;
+    right: -15px;
+    padding: 5px 0 0 5px;
+    width: 107px;
+    height: 68px;
+    text-align: center;
+}
+
+.zakaz .pack {
+    padding: 10px 0 0 0;
+}
+
+.zakaz .pack span {
+    background: #ff7200;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 3px 12px;
+    font-size: 16px;
+}
+
+.zakaz .rem {
+    padding-top: 6px;
+}
+
+.zakaz .cost-block {
+    width: 300px;
+}
+
+.zakaz .cost {
+    padding: 16px 0;
+}
+
+.zakaz form {
+    overflow: hidden;
+    margin-top: -15px;
+    border-radius: 10px;
+    padding: 16px 16px 10px 16px;
+    background: #fff url(../img/form-akcia.png)/*tpa=http://online24shops.com/free_propatent_1/img/form-akcia.png*/
+    no-repeat 50% 80px;
+}
+
+.zakaz form > p {
+    padding-bottom: 29px;
+}
+
+.zakaz .normal-price {
+    margin-right: 55px;
+    color: #afafb0;
+}
+
+.zakaz .normal-price .lt {
+    display: block;
+    margin-top: 8px;
+}
+
+.zakaz .inline-b {
+    vertical-align: top;
+}
+
+.zakaz fieldset {
+    margin-top: 18px;
+}
+
+#slide2 {
+    background: url('../img/bg2.jpg')/*tpa=http://online24shops.com/free_propatent_1/img/bg2.jpg*/
+    50% 0 no-repeat;
+    height: 476px;
+    padding-top: 20px;
+}
+
+#slide2 .px18 {
+    padding: 22px 0 0;
+    width: 550px;
+}
+
+#slide3 {
+    position: relative;
+    background: url('')/*tpa=http://online24shops.com/free_propatent_1/img/bg3.html*/
+    50% 0 no-repeat, url('')/*tpa=http://online24shops.com/free_propatent_1/img/bg3-1.html*/
+    50% 100% repeat-x;
+    height: 578px;
+}
+
+#slide3 .container {
+    height: 100%;
+    overflow: visible;
+}
+
+#slide3 p:first-child {
+    color: #009cce;
+    padding-top: 30px;
+}
+
+#slide3 p.desc {
+    padding-top: 400px;
+}
+
+#slide3 .punkt {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    color: #009cce;
+    z-index: 100;
+}
+
+#slide3 .block1 {
+    margin: 85px 0 0 10px;
+}
+
+#slide3 .block2 {
+    margin: 230px 0 0 -65px;
+}
+
+#slide3 .block3 {
+    margin: 80px 0 0 800px;
+}
+
+#slide3 .block4 {
+    margin: 234px 0 0 768px;
+}
+
+#slide4 {
+    background: #012c3f;
+    padding: 60px 0 0;
+}
+
+#slide4 ul {
+    padding: 50px 0 20px;
+}
+
+#slide4 ul li {
+    display: table-cell;
+    width: 356px;
+    text-align: left;
+}
+
+#slide4 ul li:nth-child(2) {
+    padding: 0 43px;
+}
+
+#slide4 ul li p {
+    color: #009fd2;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 120%;
+    padding-top: 20px;
+}
+
+#slide4-1 {
+    background: url('../img/bg4_new.jpg')/*tpa=http://online24shops.com/free_propatent_1/img/bg4_new.jpg*/
+    50% 0 no-repeat, url('../img/bg4-1.png')/*tpa=http://online24shops.com/free_propatent_1/img/bg4-1.png*/
+    50% 0 repeat-x;
+    height: 226px;
+}
+
+#slide4-1 p {
+    padding: 66px 50px 0 300px;
+}
+
+#slide5 {
+    background: #009cce;
+    padding: 30px 0 0px;
+}
+
+#slide5 ul {
+    padding: 60px 0 40px;
+}
+
+#slide5 ul li {
+    display: table-cell;
+    vertical-align: middle;
+    width: 384px;
+    text-align: left;
+    height: 100px;
+    line-height: 140%;
+    padding-left: 120px;
+}
+
+#slide5 li:nth-child(2) {
+    padding: 0 43px 0 120px;
+}
+
+#slide5 .first li:nth-child(1) {
+    background: url(../img/ico1.png)/*tpa=http://online24shops.com/free_propatent_1/img/ico1.png*/
+    no-repeat 0 50%;
+    padding-right: 43px;
+}
+
+#slide5 .first li:nth-child(2) {
+    background: url(../img/ico2.png)/*tpa=http://online24shops.com/free_propatent_1/img/ico2.png*/
+    no-repeat 0 50%;
+}
+
+#slide5 .first li:nth-child(3) {
+    background: url(../img/ico3.png)/*tpa=http://online24shops.com/free_propatent_1/img/ico3.png*/
+    no-repeat 0 50%;
+}
+
+#slide5 .sec li:nth-child(1) {
+    background: url(../img/ico4.png)/*tpa=http://online24shops.com/free_propatent_1/img/ico4.png*/
+    no-repeat 0 50%;
+    padding-right: 43px;
+}
+
+#slide5 .sec li:nth-child(2) {
+    background: url(../img/ico5.png)/*tpa=http://online24shops.com/free_propatent_1/img/ico5.png*/
+    no-repeat 0 50%;
+}
+
+#slide5 .sec li:nth-child(3) {
+    background: url(../img/ico6.png)/*tpa=http://online24shops.com/free_propatent_1/img/ico6.png*/
+    no-repeat 0 50%;
+}
+
+#slide6 {
+    position: relative;
+    min-height: 456px;
+    background: #009cce url('../img/bg6_new.jpg')/*tpa=http://online24shops.com/free_propatent_1/img/bg6_new.jpg*/
+    49% 0 no-repeat;
+}
+
+#slide6 .container {
+    overflow: visible;
+    height: 100%;
+}
+
+#slide6 .zakaz {
+    position: absolute;
+    margin: -20px 0 0 820px;
+    width: 316px;
+}
+
+#slide6 .inf {
+    padding: 230px 0 35px 100px;
+    width: 370px;
+    box-sizing: border-box;
+}
+
+#slide6 .inf2 {
+    padding-left: 10px;
+}
+
+#slide7 {
+    background: #fff;
+    padding-top: 80px;
+    height: 662px;
+    background: url('')/*tpa=http://online24shops.com/free_propatent_1/img/bg7.html*/
+    50% 0 no-repeat;
+}
+
+#slide7 p {
+    line-height: 140%;
+    width: 800px;
+    padding-bottom: 35px;
+}
+
+#review {
+    background: #1d1d1d;
+    padding: 30px 0 50px;
+}
+
+#review .scan {
+    color: #009cce;
+    border-bottom: 1px solid #009cce;
+}
+
+#review .block {
+    width: 82%;
+    margin: 40px auto 0;
+    padding: 12px;
+    border-radius: 10px;
+    background: #eeeeee;
+}
+
+#review .left.brand {
+    color: #3a9001;
+    font-size: 10px;
+    padding-left: 30px;
+    line-height: 12px;
+    background: url(../img/dot-m.png)/*tpa=http://online24shops.com/free_propatent_1/img/dot-m.png*/
+    no-repeat 0 50%;
+}
+
+#review .right.refresh {
+    background: url(../img/refresh.png)/*tpa=http://online24shops.com/free_propatent_1/img/refresh.png*/
+    no-repeat 0 50%;
+    padding-left: 20px;
+    color: #a0a0a0;
+    text-align: right;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 12px;
+}
+
+#review .content {
+    margin-top: 10px;
+    background: #fff;
+    width: 100%;
+    height: 364px;
+    overflow: hidden;
+}
+
+#review .content .left {
+    width: 67%;
+}
+
+#review .content .right {
+    width: 33%;
+    position: relative;
+    height: 100%;
+}
+
+#review .content .right .right-cont {
+    padding: 12px 0 0 18px;
+}
+
+#review .content .right p {
+    color: #000;
+    padding: 6px 0;
+}
+
+#review .content .right .gray {
+    color: #8e8e8e;
+}
+
+#review .content .right .green {
+    color: #3a9100;
+}
+
+#review .content .right .repa p {
+    font-size: 15px;
+}
+
+#review .content .right img {
+    margin: 10px 0;
+}
+
+#review .content .right .hash {
+    display: inline-block;
+    padding: 8px 8px;
+    border: 1px solid #969696;
+    border-radius: 4px;
+    margin: 0 2px;
+    color: #767676;
+}
+
+#review .content .right .about-bs {
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+    background: #eeeeee;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 6px 10px;
+}
+
+#review .otziv .av img {
+    width: 50px;
+}
+
+#review .otziv {
+    width: 100%;
+    overflow-y: auto;
+    height: 368px;
+    padding: 10px;
+    border-right: 1px solid #dadada;
+}
+
+#review .otziv::-webkit-scrollbar {
+    width: 10px;
+}
+
+#review .otziv::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+#review .otziv::-webkit-scrollbar-thumb {
+    background-color: #8e8e8e;
+    outline: 1px solid slategrey;
+    border-radius: 50px;
+}
+
+#review .otziv ul li {
+    width: 100%;
+    color: #2c2c2c;
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #cbcbcb;
+}
+
+#review .otziv ul li div {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#review .otziv ul li .date {
+    color: #b2b2b2;
+    padding-left: 6px;
+}
+
+#review .otziv ul li .text {
+    padding-left: 10px;
+}
+
+#review .otziv ul li p {
+    line-height: 140%;
+}
+
+#cert {
+    background: #0e5d76;
+    padding: 30px 0 50px;
+}
+
+#cert .left {
+    width: 50%;
+    border-right: 1px dashed #fff;
+    box-sizing: border-box;
+}
+
+#cert .right {
+    width: 50%;
+    padding-left: 85px;
+}
+
+#cert ul {
+    padding-top: 20px;
+}
+
+#cert ul li {
+    display: table-cell;
+    padding-right: 3px;
+    vertical-align: top;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+#cert .right ul li {
+    padding-right: 22px;
+}
+
+#slide8 {
+    background: #012c3f url('../img/green_line.png')/*tpa=http://online24shops.com/free_propatent_1/img/green_line.png*/
+    no-repeat center 170px;
+    padding: 50px 0;
+    min-height: 662px;
+}
+
+#slide8 ul {
+    padding: 50px 0 20px;
+}
+
+#slide8 ul li {
+    display: table-cell;
+    width: 356px;
+    text-align: center;
+}
+
+#slide8 ul li:nth-child(2) {
+    padding: 0 43px;
+}
+
+#slide8 ul li p {
+    color: #009fd2;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 120%;
+    padding-top: 20px;
+}
+
+#slide8 ul:last-child {
+    margin-left: 200px;
+}
+
+#slide8 .block {
+    margin-top: 30px;
+    background: url()/*tpa=http://online24shops.com/free_propatent_1/img/att.html*/
+    no-repeat 20px 50%;
+    border: 1px solid #009fd2;
+    border-radius: 10px;
+    padding: 20px 20px 20px 210px;
+}
+
+#slide8 p {
+    line-height: 140%;
+    padding: 10px 0;
+}
+
+#slide9 {
+    background: url(../img/bg8.jpg)/*tpa=http://online24shops.com/free_propatent_1/img/bg8.jpg*/
+    no-repeat 50% 0, url(../img/bg9-1.png)/*tpa=http://online24shops.com/free_propatent_1/img/bg9-1.png*/
+    repeat-x 50% 0;
+    padding: 50px 0;
+    height: 1376px;
+}
+
+#slide9 .container {
+    overflow: visible;
+}
+
+#slide9 ul p {
+    padding: 18px 0;
+    line-height: 120%;
+    padding-right: 15px;
+    text-align: center;
+}
+
+#slide9 ul span {
+    border: 1px solid #009fd2;
+    border-radius: 5px;
+    padding: 3px 10px 3px 25px;
+    background: url()/*tpa=http://online24shops.com/free_propatent_1/img/flash.html*/
+    no-repeat 5px 50%;
+}
+
+#slide9 ul li {
+    width: 260px;
+    text-align: left;
+    vertical-align: top;
+}
+
+#slide9 ul.line1 {
+    padding-top: 60px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+ul.line1 li {
+    display: inline-block;
+}
+
+ul.line1 li img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+#slide9 ul.line2 {
+    padding-top: 175px;
+}
+
+#slide9 ul.line2 li:nth-child(2) p.px16 {
+    padding-top: 34px;
+}
+
+#slide9 ul.line2 li:nth-child(3) {
+    padding-left: 20px;
+}
+
+#slide9 ul.line2 li:nth-child(3) p.px16 {
+    padding-top: 34px;
+}
+
+#slide9 ul.line2 li:nth-child(4) p {
+    padding: 18px 0 18px 40px;
+}
+
+#slide9 ul.line2 li:nth-child(4) p.px16 {
+    padding-top: 34px;
+}
+
+#slide9 ul.line2 li:nth-child(5) {
+    padding-left: 30px;
+}
+
+#slide9 .block {
+    position: relative;
+    height: 200px;
+    margin-top: 30px;
+    border: 1px solid #009fd2;
+    border-radius: 10px;
+}
+
+#slide9 .block p {
+    padding: 52px 20px 60px 270px;
+}
+
+#slide9 .man {
+    position: absolute;
+    margin: -47px 0 0 -20px;
+    left: 0;
+}
+
+#slide9 .hand {
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+}
+
+#slide9 .btn {
+    position: absolute;
+    text-transform: uppercase;
+    display: block;
+    width: 285px;
+    height: 67px;
+    line-height: 67px;
+    right: 35px;
+    top: 70px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    background: #f0231e;
+    border: 0px;
+    border-bottom: 3px solid #870e0b;
+    transition: background 0.3s;
+    border-radius: 8px;
+    color: #fff;
+}
+
+#slide9 .btn:hover {
+    background: #cf130f;
+}
+
+#slide10 {
+    background: #009cce;
+    padding: 40px 0;
+}
+
+#slide10 .bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    outline: 0;
+    width: 30px;
+    height: 49px;
+    text-indent: -9999px;
+    z-index: 9999;
+}
+
+#slide10 ul li .block {
+    width: 100%;
+    margin: 50px auto;
+}
+
+#slide10 ul li .block div {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#slide10 ul li .block div:first-child {
+    min-width: 250px;
+}
+
+#slide10 ul li p {
+    padding-bottom: 20px;
+}
+
+#slide11 {
+    background: #09222b;
+    padding: 50px 0;
+}
+
+#slide11 .block {
+    background: #022b3d;
+    border: 1px solid #009cce;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#slide11 .block div {
+    display: table-cell;
+    width: 543px;
+    padding: 0 15px;
+}
+
+#slide11 .block div img {
+    width: 100%;
+}
+
+#slide11 .block p.px40 {
+    padding: 40px 0 20px;
+}
+
+#slide11 .block p.px18 {
+    padding-bottom: 30px;
+}
+
+#slide11 .block ul li {
+    font-size: 18px;
+    display: block;
+    background: url(../img/about-list.png)/*tpa=http://online24shops.com/free_propatent_1/img/about-list.png*/
+    no-repeat 0 5px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    line-height: 140%;
+}
+
+#slide12 {
+    background: #012c3f;
+    padding: 40px 0;
+}
+
+#slide12 ul {
+    padding-top: 70px;
+}
+
+#slide12 ul li {
+    display: table-cell;
+    width: 288px;
+    text-align: center;
+}
+
+#slide12 ul li p {
+    line-height: 140%;
+    padding: 30px 20px 20px 20px;
+}
+
+#slide13 {
+    background: #01374e;
+    padding: 40px 0;
+}
+
+#slide13 p {
+    border-left: 11px solid #009cce;
+    border-right: 11px solid #009cce;
+    padding: 0 30px;
+}
+
+#slide14 {
+    background: #022d40 url(../img/bg14_new.jpg)
+    no-repeat 50% 0;
+    padding: 40px 0;
+    height: 588px;
+}
+
+#slide14 .container {
+    overflow: visible;
+}
+
+#slide14 .zakaz {
+    position: absolute;
+    margin: 10px 0 0 820px;
+    width: 316px;
+    border-radius: 10px;
+}
+
+#slide14 .inf1 {
+    padding: 77px 0 30px 130px;
+    width: 340px;
+    box-sizing: border-box;
+}
+
+#slide14 .inf2 {
+    padding-left: 30px;
+}
+
+#slide14 .title {
+    font-size: 20px;
+    width: 250px;
+    padding-top: 18px;
+}
+
+#slide14 .title span {
+    color: #ffc104;
+}
+
+#slide14 .secure {
+    font-size: 14px;
+    line-height: 120%;
+    margin-top: 5px;
+    padding: 10px 0 10px 90px;
+    background: url(../img/mask.png)/*tpa=http://online24shops.com/free_propatent_1/img/mask.png*/
+    no-repeat 0 50%;
+}
+
+#slide14-1 {
+    background: #000 url(../img/bg15.jpg)/*tpa=http://online24shops.com/free_propatent_1/img/bg15.jpg*/
+    no-repeat 50% 0;
+    height: 163px;
+}
+
+#slide15 {
+    background: #fff;
+    padding: 50px 0;
+}
+
+#slide15 .container {
+    overflow: visible;
+}
+
+#slide15 ul li:first-child {
+    width: 120px;
+    margin-right: 40px;
+}
+
+#slide15 ul li:first-child p {
+    margin-bottom: 6px;
+}
+
+#slide15 ul li:first-child a {
+    margin: 5px;
+}
+
+#slide15 ul li {
+    width: 24%;
+    font-size: 12px;
+    vertical-align: middle;
+    display: inline-block;
+    color: #000;
+    line-height: 140%;
+}
+
+#slide15 ul li:nth-child(3) {
+    width: 32%;
+}
+
+input {
+    width: 100%;
+    border-radius: 6px;
+    height: 45px;
+    text-indent: 50px;
+    color: #000;
+    line-height: 45px;
+    margin-bottom: 14px;
+    font-size: 16px;
+    border: 1px solid #000;
+}
+
+select {
+    width: 100%;
+    border-radius: 6px;
+    height: 45px;
+    text-indent: 50px;
+    color: #000;
+    line-height: 45px;
+    margin-bottom: 14px;
+    font-size: 16px;
+    border: 1px solid #000;
+}
+
+button {
+    width: 100%;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    height: 67px;
+    line-height: 67px;
+    box-sizing: border-box;
+    background: #f0231e;
+    cursor: pointer;
+    border: 0px;
+    border-bottom: 3px solid #870e0b;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background: #d70f0a;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+/* Validation */
+
+label.error {
+    display: none!important;
+}
+
+input.error,
+textarea.error {
+    border: 2px solid #D32626!important;
+}
+
+input.name {
+    background: url(../img/name.png)/*tpa=http://online24shops.com/free_propatent_1/img/name.png*/
+    no-repeat 15px 50%;
+}
+
+input.phone {
+    background: url(../img/phone-1.png)/*tpa=http://online24shops.com/free_propatent_1/img/phone-1.png*/
+    no-repeat 15px 50%;
+}
+
+::-webkit-input-placeholder {
+    color: #000;
+}
+
+::-moz-placeholder {
+    color: #000;
+}
+
+
+/* Firefox 19+ */
+
+:-moz-placeholder {
+    color: #000;
+}
+
+
+/* Firefox 18- */
+
+:-ms-input-placeholder {
+    color: #000;
+}
+
+#rc-phone {
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+    width: 62px;
+    height: 62px;
+    z-index: 1000;
+    margin: 0;
+}
+
+#rc-phone-form {
+    overflow: hidden
+}
+
+#rc-phone.rc-inactive #rc-phone-back {
+    display: block;
+}
+
+#rc-phone-form {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    padding: 12px 0;
+    background: #363f43;
+    width: 48px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.45);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.45);
+}
+
+#rc-phone-icon {
+    position: absolute;
+    cursor: pointer;
+    color: #fff;
+    left: -1px;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 26px;
+    border-radius: 50%;
+    background: #3fae2a;
+    z-index: 1;
+    transition: background 0.2s
+}
+
+#rc-phone-icon:hover {
+    color: #fff;
+    background: #298817;
+}
+
+#rc-phone-form-wrap {
+    width: 380px;
+    padding-left: 60px;
+    position: relative;
+    z-index: 10;
+}
+
+#rc-recall {
+    font-size: 12px;
+    width: 80px;
+    color: #fff;
+    float: left;
+    line-height: 14px;
+    margin-right: 6px;
+}
+
+#rc-phone-input {
+    float: left;
+    border-radius: 12px;
+    width: 180px;
+    height: 28px;
+    background: #fff url()/*tpa=http://online24shops.com/free_propatent_1/img/rus.html*/
+    no-repeat 8px 50%;
+    color: #b2b2b2;
+    margin: 0;
+    padding: 0 0 0 25px;
+    border: 1px solid #363f43;
+    box-sizing: border-box;
+    box-shadow: none !important;
+    line-height: 12px;
+}
+
+#rc-phone-input .error {
+    border: 1px solid #ff3c36;
+}
+
+#rc-phone-input:focus {
+    color: #4c4c4c;
+}
+
+#rc-phone-button {
+    float: left;
+    border: 0;
+    color: #363f43;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    line-height: 24px;
+    text-align: center;
+    font-size: 14px;
+    box-sizing: border-box;
+    background: rgb(238, 238, 238);
+    cursor: pointer;
+    margin: 2px 0 0 9px;
+    border-radius: 50%;
+}
+
+#rc-phone-button:hover {
+    color: #fff;
+    background: rgb(63, 174, 42) url()/*tpa=http://online24shops.com/free_propatent_1/img/m-phone-h.html*/
+    no-repeat 50% 50%;
+}
+
+:focus {
+    outline: none;
+}
+
+#rc-phone-form-close {
+    position: absolute;
+    z-index: 2;
+    top: -3px;
+    left: -3px;
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    background: #363f43;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+#rc-phone-form-close:hover {
+    background: red;
+}
+
+#rc-phone-form-close.closed {
+    height: 0;
+    width: 0;
+}
+
+#rc-phone-form:hover #rc-phone-form-close {
+    display: block;
+}
+
+#callbackform {
+    display: none;
+}
+
+#callbackform form {
+    background: #fff;
+}
+
+#callbackform .zakaz form > p {
+    padding-bottom: 0px;
+}
+
+
+/*back to top*/
+
+.back-to-top {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    text-decoration: none !important;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+    z-index: 555;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    backface-visibility: hidden;
+}
+
+.back-to-top i,
+.back-to-top [class*="icon-"] {
+    position: absolute;
+    top: 11px;
+    left: 50%;
+    margin-left: -16px;
+}
+
+.back-to-top .text-inner {
+    display: block;
+    color: #505050;
+    text-align: center;
+    padding: 25px 0 0 2px;
+}
+
+.back-to-top:hover {
+    border-color: #505050;
+    background: #eee;
+}
+
+.icon-back {
+    background: url(../img/top.png)/*tpa=http://online24shops.com/free_propatent_1/img/top.png*/
+    no-repeat 50% 0;
+    background-size: 24px;
+    width: 33px;
+    height: 18px;
+}
+
+@keyframes flash {
+    0%,
+    100% {
+        color: #fff;
+    }
+    8% {
+        color: #000;
+    }
+    26% {
+        color: #fff;
+    }
+}
+
+.hidden-conf {
+    display: none
+}
+
+.conf-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: #000;
+    cursor: pointer;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    -khtml-opacity: .9;
+    opacity: .9
+}
+
+.conf-info {
+    position: relative;
+    cursor: default;
+    width: 800px;
+    padding: 30px 30px;
+    color: #000;
+    z-index: 9999;
+    text-align: left;
+    background: #fff;
+    border-radius: 6px;
+    position: fixed;
+    top: 8%;
+    left: 50%;
+    margin: 0 0 0 -420px
+}
+
+.conf-info .conf-head {
+    font: 30px/30px arial, sans-serif;
+    margin: 0 0 16px
+}
+
+.conf-info h5 {
+    font: 700 18px/18px arial, sans-serif;
+    margin: 16px 0 6px
+}
+
+.conf-info p {
+    font: 13px/15px arial, sans-serif;
+    margin: 0 0 8px
+}
+
+.closeconf-but {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 29px;
+    width: 29px;
+    cursor: pointer;
+    background: url()/*tpa=http://online24shops.com/free_propatent_1/img/img_close-conf.html*/ no-repeat
+}
+
+/* section10 */
+
+.section10 {
+    padding-bottom: 35px;
+}
+
+.delivery-wrap {
+    padding-top: 45px;
+    text-align: center;
+}
+
+.delivery-wrap--bottom {
+    padding-top: 7px;
+}
+
+.delivery-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+    text-align: left;
+    position: relative;
+    padding-top: 170px;
+    padding-left: 35px;
+}
+
+.delivery-block--2 {
+    margin-left: 189px;
+}
+
+.delivery-block--3 {
+    margin: 0 50px 0 30px;
+}
+
+.delivery-block--4 {
+    margin-left: 40px;
+}
+
+.delivery-block--5 {
+    width: 24%;
+}
+
+.delivery-block:before {
+    content: " ";
+    background: url("../img/delivery-icon-1.png")/*tpa=http://online24shops.com/free_propatent_1/img/delivery-icon-1.png*/ no-repeat;
+    width: 220px;
+    height: 231px;
+    position: absolute;
+    top: 0;
+    left: 48px;
+    z-index: 1;
+}
+
+.delivery-block--1.delivery-block:before {
+    background-position: 0 0;
+}
+
+.delivery-block--2.delivery-block:before {
+    background-position: -220px 0;
+    top: -78px;
+}
+
+.delivery-block--3.delivery-block:before {
+    background-position: -440px 0;
+}
+
+.delivery-block--4.delivery-block:before {
+    background-position: -660px 0;
+    top: -78px;
+}
+
+.delivery-block--5.delivery-block:before {
+    background-position: -880px 0;
+    width: 160px;
+}
+
+.delivery-number {
+    position: absolute;
+    top: 33px;
+    left: 0;
+    background: url("../img/delivery-number-bg.png")/*tpa=http://online24shops.com/free_propatent_1/img/delivery-number-bg.png*/ no-repeat 0 0;
+    width: 82px;
+    height: 81px;
+    text-align: center;
+    padding-top: 21px;
+    color: #fff;
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    z-index: 2;
+}
+
+.delivery-text {
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+}
+
+
+@media (max-width:1190px) {
+    .conf-info {
+        position: relative;
+        cursor: default;
+        width: 600px;
+        padding: 30px 30px;
+        color: #000;
+        z-index: 9999;
+        text-align: left;
+        background: #fff;
+        border-radius: 6px;
+        position: fixed;
+        top: 8%;
+        left: 50%;
+        margin: 0px 0 0 -332px;
+    }
+    .popup-mini .item {
+        right: 50px;
+    }
+    .desk {
+        display: none;
+    }
+    .mob {
+        display: block;
+    }
+    .mob2 {
+        display: none;
+    }
+    .container {
+        max-width: 700px;
+       
+    }
+    #header .header li.line {
+        display: none;
+    }
+    #header .header li {
+        float: right;
+    }
+    #header .header li.logo {
+        float: left;
+    }
+    #header .logo {
+        line-height: 55px;
+    }
+    #slide1 .inn {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    #slide1 .list {
+        margin-top: -62px;
+    }
+    #slide1 .vibor {
+        padding: 56px 0 0 27px;
+    }
+    #slide1 {
+        background: #1d1d1d;
+    }
+    #slide2 {
+        background: #0c9fd2;
+        height: unset;
+        min-height: 300px;
+        padding-bottom: 30px;
+    }
+    #slide4 ul li {
+        display: block;
+        width: 320px;
+        float: left;
+        padding: 0px !important;
+        margin: 20px 15px;
+    }
+    #slide4 ul li img {
+        width: 100%;
+    }
+    #slide4-1 {
+        background: #012c3f;
+        padding-bottom: 30px;
+        height: unset;
+        min-height: 200px;
+    }
+    #slide4-1 .prod {
+        position: absolute;
+    }
+    #slide4-1 .prod img {
+        width: 329px;
+        margin-top: 34px;
+    }
+    #slide4-1 p {
+        background: #009cce;
+        float: left;
+        border-radius: 8px;
+        width: 650px;
+        margin-left: 25px;
+        padding: 20px;
+        padding-left: 300px;
+        margin-top: 60px;
+    }
+    #review .block {
+        width: 97%;
+        margin: 40px auto 0;
+        padding: 12px;
+        border-radius: 10px;
+        background: #eeeeee;
+    }
+    #review .content .left {
+        width: 53%;
+    }
+    #review .content .right {
+        width: 47%;
+        position: relative;
+        height: 100%;
+    }
+    #slide1 .prod {
+        position: absolute;
+        width: 400px;
+        margin-top: -246px;
+        margin-left: 325px;
+    }
+    #slide1 .prod img {
+        width: 350px;
+        margin-left: 10%;
+    }
+    #slide1 {
+        height: 656px;
+    }
+    #slide5 .first {
+        text-align: center;
+        margin-left: 5px;
+    }
+    #slide5 .first li {
+        display: inline-block;
+        width: 330px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+    }
+    #slide5 .first li:nth-child(4) {
+        background: url(../img/ico4.png)/*tpa=http://online24shops.com/free_propatent_1/img/ico4.png*/
+        no-repeat 0 50%;
+        padding-right: 43px;
+    }
+    #slide5 .first li:nth-child(5) {
+        background: url(../img/ico5.png)/*tpa=http://online24shops.com/free_propatent_1/img/ico5.png*/
+        no-repeat 0 50%;
+    }
+    #slide5 .first li:nth-child(6) {
+        background: url(../img/ico6.png)/*tpa=http://online24shops.com/free_propatent_1/img/ico6.png*/
+        no-repeat 0 50%;
+    }
+    #slide6 {
+        background: #009cce;
+        min-height: 960px;
+    }
+    #slide6 .prod {
+        width: 100%;
+        text-align: center;
+    }
+    #slide6 .zakaz {
+        position: static;
+        margin: 0px;
+        margin-left: 192px;
+        float: left;
+        margin-top: 30px;
+    }
+    #slide6 .inf {
+        padding: 0px;
+        width: 700px;
+        text-align: center;
+        padding: 0 150px;
+        padding-top: 30px;
+        float: left;
+    }
+    #slide6 .inf2 {
+        padding: 0px;
+        width: 700px;
+        text-align: center;
+        padding: 0 150px;
+        padding-top: 20px;
+        float: left;
+    }
+    #slide8 {
+        background: #012c3f;
+    }
+    #slide8 ul li {
+        display: block;
+        float: left;
+        width: 340px;
+        padding: 0 !important;
+        margin: 10px 5px;
+        height: 250px;
+        margin-bottom: 35px;
+    }
+    #slide8 ul:last-child {
+        margin-left: 180px;
+    }
+    #slide8 ul li img {
+        width: 100%;
+    }
+    #slide1 .zakaz {
+        margin: 0px;
+        margin-left: 192px;
+        margin-top: 600px;
+    }
+    #slide1 {
+        height: 1156px;
+    }
+    #slide9 ul li {
+        width: 297px;
+        padding: 0px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    #slide9 ul p {
+        text-align: center;
+    }
+    #slide9 {
+        background: url(../img/bg8.jpg)/*tpa=http://online24shops.com/free_propatent_1/img/bg8.jpg*/ no-repeat 50% 0, url(../img/bg9-1.png)/*tpa=http://online24shops.com/free_propatent_1/img/bg9-1.png*/ repeat-x 50% 0;
+        padding: 50px 0;
+        height: 1775px;
+        background-size: cover;
+    }
+    #slide9 .block p {
+        padding: 8px 20px 60px 270px;
+        font-size: 27px;
+        margin-top: 10px;
+    }
+    #slide9 .btn {
+        position: absolute;
+        text-transform: uppercase;
+        display: block;
+        width: 285px;
+        height: 67px;
+        line-height: 67px;
+        right: 35px;
+        top: 94px;
+    }
+    #slide13 p {
+        border-left: 11px solid #009cce;
+        border-right: 11px solid #009cce;
+        padding: 0 30px;
+        font-size: 23px;
+    }
+    #slide14 .zakaz {
+        margin: 0px;
+        margin-left: 192px;
+        margin-top: 440px;
+    }
+    #slide14 {
+        height: 1080px;
+    }
+    #slide14 .prod {
+        position: absolute;
+        width: 400px;
+        margin-top: -200px;
+        margin-left: 325px;
+    }
+    #slide14 .prod img {
+        width: 180px;
+        margin-left: 25%;
+    }
+    #slide14 {
+        background: #022d40;
+    }
+    #slide14 .title {
+        width: 700px;
+    }
+    #slide14 .inf1 {
+        padding: 54px 0 30px 35px;
+        width: 340px;
+        box-sizing: border-box;
+    }
+    #slide2 .px18 {
+        width: 700px;
+    }
+    #slide9 ul.line1 {
+        width: 100%;
+    }
+
+     .delivery-text {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .delivery-wrap--bottom {
+        display: none;
+    }
+    .delivery-block {
+        display: block;
+        width: 50%;
+        text-align: left;
+        padding-top: 170px;
+        padding-left: 18px;
+        margin-left: 10px;
+    }
+    .delivery-block--2-mob,
+    .delivery-block--4-mob {
+        display: block;
+        margin-left: 235px;
+        padding-left: 6px;
+    }
+    .delivery-block--2-mob {
+        margin-top: -20px;
+        margin-bottom: -125px;
+    }
+    .delivery-block--4-mob {
+        margin-top: -30px;
+        margin-bottom: -85px;
+    }
+    .delivery-block--1.delivery-block:before {
+        background-position: 0 -231px;
+    }
+    .delivery-block--2-mob.delivery-block:before {
+        background-position: -220px -231px;
+        left: -50px;
+    }
+    .delivery-block--3.delivery-block:before {
+        background-position: -440px -231px;
+    }
+    .delivery-block--4-mob.delivery-block:before {
+        background-position: -660px -231px;
+        left: -50px;
+    }
+    .delivery-block--2-mob .delivery-number,
+    .delivery-block--4-mob .delivery-number {
+        left: 130px;
+    }
+    .section10 {
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 775px) {
+    .conf-info {
+        position: relative;
+        cursor: default;
+        width: 355px;
+        padding: 30px 30px;
+        color: #000;
+        z-index: 9999;
+        text-align: left;
+        background: #fff;
+        border-radius: 6px;
+        position: fixed;
+        top: 0%;
+        left: 50%;
+        margin: 1px 0 0 -208px;
+    }
+    .popup-mini .item {
+        left: 20px;
+    }
+    .container {
+        max-width: 400px;
+    }
+    .desk {
+        display: none;
+    }
+    .mob {
+        display: none;
+    }
+    .mob2 {
+        display: block;
+    }
+
+    .delivery-block:before {
+        margin-left: -48px;
+    }
+    .delivery-block--2-mob.delivery-block:before,
+    .delivery-block--4-mob.delivery-block:before {
+        margin-left: -102px;
+    }
+    .delivery-number {
+        left: 12px;
+    }
+    .delivery-block--2-mob .delivery-number,
+    .delivery-block--4-mob .delivery-number {
+        left: 137px;
+    }
+    .delivery-text {
+        font-size: 16px;
+        padding: 0 1px;
+    }
+    .delivery-wrap {
+    padding-top: 15px;
+    text-align: center;
+    width: 225px;
+    margin-left: 29px;
+}
+.delivery-number {
+    left: -39px;
+}
+.delivery-block--2-mob .delivery-number, .delivery-block--4-mob .delivery-number {
+    left: 15px;
+}
+.delivery-text {
+    font-size: 16px;
+    padding: 0 1px;
+    margin-left: -19px;
+    width: 142px;
+}
+#header .header li.logo {
+	display: none;
+}
+#header a {
+	margin-right: 75px;
+}
+.px42 {
+    font-size: 37px;
+}
+#slide1 .list {
+    margin-left: 41px;
+}
+#slide1 .prod {
+    position: static;
+    margin-left: 19px;
+    margin-top: 26px;
+}
+
+#slide1 .zakaz {
+    margin: 0px;
+    margin-left: 41px;
+    margin-top: 802px;
+}
+#slide1 .vibor {
+	display: none;
+}
+#slide1 .choose {
+	display: none;
+}
+#slide1 {
+    height: 1330px;
+}
+#slide2 .px18 {
+    width: 400px;
+} 
+#slide4 ul {
+    padding: 27px 0 20px;
+}
+#slide4 ul li {
+    display: block;
+    width: 320px;
+    float: left;
+    padding: 0px !important;
+    margin: 20px 37px;
+    text-align: center;
+}
+#slide4-1 p {
+    background: #009cce;
+    float: left;
+    border-radius: 12px;
+    width: 349px;
+    margin-left: 25px;
+    padding: 20px;
+    padding-top: 198px;
+    margin-top: 60px;
+}
+#slide4-1 .prod img {
+    width: 180px;
+    margin-top: 34px;
+    margin-left: 55%;
+}
+.px40 {
+    font-size: 40px;
+	line-height: 46px;
+}
+#slide6 .prod  img{
+	margin-top: 30px;
+	width: 180px;
+}
+#slide6 .zakaz {
+    position: static;
+    margin: 0px;
+    margin-left: 44px;
+    float: left;
+    margin-top: 30px;
+}
+#slide6 .inf {
+    padding: 0px;
+    width: 400px;
+    text-align: center;
+    padding: 0 10px;
+    padding-top: 30px;
+    float: left;
+}
+#slide6 .inf2 {
+	 width: 400px;
+    text-align: center;
+    padding: 0 10px;
+	margin-top: 20px;
+}
+#review .content .left {
+    width: 100%;
+}
+#slide8 p {
+    line-height: 36px;
+    padding: 10px 0;
+    font-size: 29px;
+}
+#slide8 ul li {
+    display: block;
+    float: left;
+    width: 340px;
+    padding: 0 !important;
+    margin: 10px 27px;
+    height: 250px;
+    margin-bottom: 35px;
+}
+#slide8 ul:last-child {
+	margin-left: 0px;
+}
+.px40 {
+    font-size: 36px;
+    line-height: 40px;
+}
+#slide9 ul li {
+    width: 297px;
+    padding: 0px;
+    margin-left: 55px;
+    text-align: center;
+    margin-right: 25px;
+}
+#slide9 {
+    background: url(../img/bg8.jpg)/*tpa=http://online24shops.com/free_propatent_1/img/bg8.jpg*/ no-repeat 50% 0, url(../img/bg9-1.png)/*tpa=http://online24shops.com/free_propatent_1/img/bg9-1.png*/ repeat-x 50% 0;
+    padding: 50px 0;
+    height: 3077px;
+    background-size: cover;
+}
+#slide9 .man {
+	display: none;
+}
+#slide9 .block p {
+    padding: 5px;
+    font-size: 27px;
+    margin-top: 10px;
+    text-align: center;
+}
+ul.line1 li img {
+    max-width: 100%;
+    margin-bottom: 0px;
+    display: inline-block;
+    text-align: center;
+}
+#slide9 .block {
+    position: relative;
+    height: 260px;
+    margin-top: 30px;
+    border: 1px solid #009fd2;
+    border-radius: 10px;
+}
+#slide9 .btn {
+    position: absolute;
+    text-transform: uppercase;
+    display: block;
+    width: 285px;
+    height: 67px;
+    line-height: 67px;
+    right: 58px;
+    top: 150px;
+}
+#slide14 .title {
+    width: 400px;
+    font-size: 30px;
+    line-height: 34px;
+}
+#slide14 .prod {
+    position: static;
+    width: 400px;
+    margin-top: 16px;
+    margin-left: 9px;
+}
+#slide14 .inf2, #slide14 .inf1 {
+	display: none;
+}
+#slide14 .zakaz {
+    margin: 0px;
+    margin-left: 41px;
+    margin-top: 473px;
+}
+.remodal {
+    max-width: 380px !important;
+}
+
+}
+.mod .form-center--all:before{
+    background: url(../img/product/strw_product.png)/*tpa=http://online24shops.com/free_propatent_1/img/box2.png*/ no-repeat 0 0 !important;
+    top: 64px !important;
+    background-size: contain !important;
+}
+.about-r-img{
+    display: block;
+    margin: 0 auto !important;
+}
+.last-component{
+    text-align: center;
+}
+.landing___price__main_value.strw_price{
+    font-size: 18px;
+}
+.price-new-x--all .strw_price{
+    font-size: 20px !important;
+}
+.mod .sale-product--all {
+    font-size: 16px !important;
+}
+.ordering-sub{
+    padding-bottom: 0 !important;
+    padding-top: 8px;
+    text-align: center;
+    color: black;
+}
+@media screen and (max-width: 440px){
+    #slide1 .prod{
+        width: 326px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+.tw-user{
+    float: left;
+    margin-right: 10px;
+}
+.tw-icon{
+    width: 18px !important;
+}
